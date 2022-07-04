@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css/index.css"
+      media="screen"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Agência de viagem</title>
+  </head>
+  <body>
+    <!--HEADER -->
+    <div class="container-fluid header border">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/index.html"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+        >
+          <img src="/img/aviao.png" alt="logo" width="50" height="50" />
+          <span class="fs-4">Gold's Airplanes</span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link active" aria-current="page"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/destino.html" class="nav-link">Destinos</a>
+          </li>
+          <li class="nav-item">
+            <a href="/promocoes.html" class="nav-link">Promoções</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contato.html" class="nav-link">Contato</a>
+          </li>
+        </ul>
+      </header>
+    </div>
+    <!--HEADER -->
+
+    <main class="main">
+      <div class="carousel">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="/img/maranhao.jpg"
+                class="d-block w-100"
+                alt="Lençóis Maranhenses (MA)"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 style="color: black">Lençóis Maranhenses (MA)</h5>
+                <p style="color: black">
+                  Quem está em busca de uma boa aventura mas com um visual de
+                  sonhos, conheça o Lençóis Maranhenses, localizado no Nordeste
+                  do país. O pico conta com uma natureza deslumbrante e uma
+                  grande área de preservação natural.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/img/fernando.jpg"
+                class="d-block w-100"
+                alt="Fernando de Noronha (PE)"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Fernando de Noronha (PE)</h5>
+                <p>
+                  Esse é um dos pontos turísticos e destinos de surf trips mais
+                  famosos entre brasileiros e gringos. Isso tudo porque o local
+                  é conhecido como o Hawaii brasileiro, contando com águas
+                  claras, uma natureza intensa e tubos insanos – dignos de
+                  Pipeline.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/img//manaus.jpg"
+                class="d-block w-100"
+                alt="Encontro das Águas – Rio Negro e Solimões (AM)"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Encontro das Águas – Rio Negro e Solimões (AM)</h5>
+                <p>
+                  Quando se trata de Brasil, a Amazônia logo nos vem à cabeça.
+                  Um fenômeno faz com que a visita ao lugar seja inédita: O
+                  famoso encontro encontro das águas entre o rios Negro e
+                  Solimões. Experimente remar com Kayak por lá.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card" style="width: 18rem; height: 25rem; margin: 2px">
+          <img src="/img/destinos.jpg" class="card-img-top" alt="Destinos" />
+          <div class="card-body">
+            <h5 class="card-title">Os melhores destinos</h5>
+            <p class="card-text">
+              Conheça os melhores lugares para viajar e tenha acesso a diversas
+              novidades.
+            </p>
+            <a href="/destino.html" class="btn btn-primary">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem; height: 25rem">
+          <img src="/img/promocoes.jpg" class="card-img-top" alt="Promoções" />
+          <div class="card-body">
+            <h5 class="card-title">As melhores promoções</h5>
+            <p class="card-text">
+              Conheça as melhores promoções do Mundo, imperdivel, aproveite que
+              é até final desse mês.
+            </p>
+            <a href="/promocoes.html" class="btn btn-primary">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem; height: 25rem; margin: 2px">
+          <img src="/img/contato.jpg" class="card-img-top" alt="Contato" />
+          <div class="card-body">
+            <h5 class="card-title">SAC</h5>
+            <p class="card-text">
+              Nossos atendentes estarão disponíveis 24h por dia para melhor
+              atendimento!
+            </p>
+            <a href="/contato.html" class="btn btn-primary">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--FOOTER -->
+    <div class="container-fluid footer">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top"
+      >
+        <p class="col-md-4 mb-0 text-muted">
+          &copy; 2022 Gold's Airplanes, Inc
+        </p>
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+        >
+          <img src="/img/aviao.png" alt="logo" width="50" height="50" />
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="/destino.html" class="nav-link px-2 text-muted"
+              >Destinos</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/promocoes.html" class="nav-link px-2 text-muted"
+              >Promoções</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/contato.html" class="nav-link px-2 text-muted">Contato</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <!--FOOTER -->
+  </body>
+</html>

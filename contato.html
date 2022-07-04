@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css/index.css"
+      media="screen"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Agência de viagem</title>
+  </head>
+  <body>
+    <!--HEADER -->
+    <div class="container-fluid header border">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/index.html"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+        >
+          <img src="/img/aviao.png" alt="logo" width="50" height="50" />
+          <span class="fs-4">Gold's Airplanes</span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link active" aria-current="page"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/destino.html" class="nav-link">Destinos</a>
+          </li>
+          <li class="nav-item">
+            <a href="/promocoes.html" class="nav-link">Promoções</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contato.html" class="nav-link">Contato</a>
+          </li>
+        </ul>
+      </header>
+    </div>
+    <!--HEADER -->
+
+    <main class="main">
+      <!-- Contact Start -->
+      <div class="container-xxl py-6" style="margin: 20px">
+        <div class="container">
+          <div class="row g-5">
+            <div
+              class="col-lg-6 wow fadeInUp"
+              data-wow-delay="0.1s"
+              style="min-height: 450px"
+            >
+              <div class="position-relative h-100">
+                <iframe
+                  class="position-relative w-100 h-100"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15937.157066500053!2d-59.958454370498615!3d-3.0167313813662187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1a332b482f2f%3A0xa720275164411e62!2sR.%2024%20-%20Cidade%20Nova%2C%20Manaus%20-%20AM%2C%2069099-430!5e0!3m2!1spt-BR!2sbr!4v1656352527387!5m2!1spt-BR!2sbr"
+                  frameborder="0"
+                  style="min-height: 450px; border: 0"
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabindex="0"
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <h6 class="text-primary text-uppercase mb-2">Contato</h6>
+              <h1 class="display-6 mb-4">Entre em contato conosco!</h1>
+              <p class="mb-4">
+                Olá! Muito feliz em saber que você está utilizando os serviços
+                da Gold's Airplanes, qualquer dúvida, sugestão ou reclamações,
+                só preencher o formulário e enviar...
+              </p>
+              <form>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control border-0 bg-light"
+                        id="name"
+                        placeholder="Your Name"
+                      />
+                      <label for="name">Seu Nome</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-floating">
+                      <input
+                        type="email"
+                        class="form-control border-0 bg-light"
+                        id="email"
+                        placeholder="Your Email"
+                      />
+                      <label for="email">Seu Email</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control border-0 bg-light"
+                        id="subject"
+                        placeholder="Subject"
+                      />
+                      <label for="subject">Título</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <textarea
+                        class="form-control border-0 bg-light"
+                        placeholder="Leave a message here"
+                        id="message"
+                        style="height: 150px"
+                      ></textarea>
+                      <label for="message">Mensagem</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary py-3 px-5" type="submit">
+                      Enviar
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact End -->
+    </main>
+    <!--FOOTER -->
+    <div class="container-fluid footer">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top"
+      >
+        <p class="col-md-4 mb-0 text-muted">
+          &copy; 2022 Gold's Airplanes, Inc
+        </p>
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+        >
+          <img src="/img/aviao.png" alt="logo" width="50" height="50" />
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="/destino.html" class="nav-link px-2 text-muted"
+              >Destinos</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/promocoes.html" class="nav-link px-2 text-muted"
+              >Promoções</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/contato.html" class="nav-link px-2 text-muted">Contato</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <!--FOOTER -->
+  </body>
+</html>
